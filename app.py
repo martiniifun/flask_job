@@ -465,5 +465,5 @@ def send_file():
     return Response(result,
                     mimetype="application/json",
                     headers={
-                        "Content-Disposition": "attachment;filename=jobs.jon"
+                        "Content-Disposition": "attachment;filename=jobs.json"
                     })
