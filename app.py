@@ -440,7 +440,7 @@ def hello_world():
     return render_template('index.html')
 
 
-@app.post('/job_result/', endpoint='results')
+@app.post('/result/', endpoint='result')
 def result():
     global jobs
     keyword = request.form['keyword']
